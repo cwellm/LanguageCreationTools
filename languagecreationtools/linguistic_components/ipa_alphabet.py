@@ -1,6 +1,12 @@
 from languagecreationtools.linguistic_components.ipa import IPAVowel, IPAConsonant
 
 IPALetterInventory = [
+    # ------------------------------------------------------------------------------
+    # ------------------------------------------------------------------------------
+    # Consonants
+    # ------------------------------------------------------------------------------
+    #-------------------------------------------------------------------------------
+
     # ---------------------------------------
     # Plosives
     # ---------------------------------------
@@ -318,5 +324,144 @@ IPALetterInventory = [
         "alveolar",
         "dental",
         "postalveolar"
+    ]),
+
+    # ------------------------------------------------------------------------------
+    # ------------------------------------------------------------------------------
+    # Vowels
+    # ------------------------------------------------------------------------------
+    # -------------------------------------------------------------------------------
+
+    # ---------------------------------------
+    # Close
+    # ---------------------------------------
+    IPAVowel("close_front_open", "i", "\u0069", [
+        "close",
+        "front"
+    ]),
+    IPAVowel("close_front_rounded", "y", "\u0079", [
+        "close",
+        "front",
+        "rounded"
+    ]),
+    IPAVowel("close_central_open", "i*", "\u0268", [
+        "close",
+        "central"
+    ]),
+    IPAVowel("close_central_rounded", "y*", "\u0289", [
+        "close",
+        "central",
+        "rounded"
+    ]),
+    IPAVowel("close_back_open", "u", "\u026F", [
+        "close",
+        "back"
+    ]),
+    IPAVowel("close_back_rounded", "u°", "\u0075", [
+        "close",
+        "back",
+        "rounded"
+    ]),
+    # ---------------------------------------
+    # Near Close
+    # ---------------------------------------
+    IPAVowel("near_close_front_open", "i_", "\u026A", [
+        "near_close",
+        "front"
+    ]),
+    IPAVowel("near_close_front_rounded", "y_", "\u028F", [
+        "near_close",
+        "front",
+        "rounded"
+    ]),
+    IPAVowel("near_close_back_rounded", "u_", "\u028A", [
+        "near_close",
+        "back",
+        "rounded"
+    ]),
+    # ---------------------------------------
+    # Close Mid
+    # ---------------------------------------
+    IPAVowel("close_mid_front_open", "e", "\u0065", [
+        "close_mid",
+        "front"
+    ]),
+    IPAVowel("close_mid_front_rounded", "e°", "\u00F8", [
+        "close_mid",
+        "front",
+        "rounded"
+    ]),
+    IPAVowel("close_mid_central_open", "e+", "\u0258", [
+        "close_mid",
+        "central"
+    ]),
+    IPAVowel("close_mid_central_rounded", "e+°", "\u0275", [
+        "close_mid",
+        "central",
+        "rounded"
+    ]),
+    IPAVowel("close_mid_back_open", "o~", "\u0264", [
+        "close_mid",
+        "central"
+    ]),
+    IPAVowel("close_mid_back_rounded", "o", "\u006F", [
+        "close_mid",
+        "central",
+        "rounded"
+    ]),
+    # ---------------------------------------
+    # Mid
+    # ---------------------------------------
+    IPAVowel("close_mid_central_rounded", "e>", "\u0259", [
+        "mid",
+        "central"
+    ]),
+    # ---------------------------------------
+    # Open Mid
+    # ---------------------------------------
+    IPAVowel("open_mid_front_open", "3", "\u025B", [
+        "open_mid",
+        "front"
+    ]),
+    IPAVowel("open_mid_front_rounded", "3°", "\u0153", [
+        "open_mid",
+        "front",
+        "rounded"
+    ]),
+    IPAVowel("open_mid_central_open", "3+", "\u025C", [
+        "open_mid",
+        "central"
+    ]),
+    IPAVowel("open_mid_central_rounded", "3+°", "\u025E", [
+        "open_mid",
+        "central",
+        "rounded"
+    ]),
+    IPAVowel("open_mid_back_open", "o>", "\u028C", [
+        "open_mid",
+        "central"
+    ]),
+    IPAVowel("open_mid_back_rounded", "o>°", "\u0254", [
+        "open_mid",
+        "central",
+        "rounded"
+    ]),
+    # ---------------------------------------
+    # Near Open
+    # ---------------------------------------
+    IPAVowel("near_open_front_open", "a>", "\u00E6", [
+        "near_open",
+        "front"
+    ]),
+    # ---------------------------------------
+    # Open
+    # ---------------------------------------
+    IPAVowel("open_front_open", "a", "\u0061", [
+        "open",
+        "front"
+    ]),
+    IPAVowel("open_back_open", "a.", "\u0251", [
+        "open",
+        "front"
     ]),
 ]

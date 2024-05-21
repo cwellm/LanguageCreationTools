@@ -66,7 +66,9 @@ class IPAVowel(IPALetter):
         "close",
         "close_mid",
         "open_mid",
-        "open"
+        "open",
+        "rounded",
+        "near_close"
     ]
 
     def __init__(self, name=None, symbol=None, unicode=None, properties: list=None):
