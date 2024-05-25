@@ -1,0 +1,30 @@
+syllable_structure:
+  # V: vocal, C: consonant, L: liquid (n, r, l, m)
+  # in braces () optional, without braces mandatory
+  general:
+
+  # verbs, nouns, adjectives, particles
+  verbs:
+
+allowed_syllables:
+
+# list of phoneme: rel. probability or simply list of phoneme;
+# all of symbol, unicode and name are possible, also mixed
+allowed_phonemes:
+
+
+transformation_rules:
+
+forbidding_rules:
+
+parameters:
+  max_word_length: 3 # in syllables
+  min_word_length: 1 # in syllables
+  # between 0.0 and 1.0 - only active, if not all phonemes have their own define rel. prob.;
+  # determines how fast, in definition order, the phoneme's probability would decrease;
+  # only makes sense with rule based algorithm
+  phoneme_probability_steepness: 0.1
+
+# ----------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------
+example_text:
