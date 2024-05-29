@@ -3,3 +3,6 @@ generation_algorithm: # rule_based or example_text
 
 parameters:
   noise: 0.01 # between 0.0 and 1.0 - determines randomness "sprinkled in" when generating words
+  # discard a word immediately if there is a rule which it cannot obey (e.g. due to conflicting rules), if yes;
+  # if no, try to replace letters (x amount of times) until something suitable is found
+  discard: no

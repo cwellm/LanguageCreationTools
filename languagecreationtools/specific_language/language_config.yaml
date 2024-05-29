@@ -1,5 +1,6 @@
 syllable_structure:
   # V: vocal, C: consonant, L: liquid (n, r, l, m)
+  # and possibly with properties: C[plosive] etc.
   # in braces () optional, without braces mandatory
   general:
 

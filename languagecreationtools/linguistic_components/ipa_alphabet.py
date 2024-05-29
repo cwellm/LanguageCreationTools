@@ -91,7 +91,7 @@ IPALetterInventory = [
     # ---------------------------------------
     # Implosive
     # ---------------------------------------
-    IPAConsonant("bilabial_implosive", "p°", "\u0253" + "\u0325", [
+    IPAConsonant("bilabial_implosive_unvoiced", "p°", "\u0253" + "\u0325", [
         "implosive",
         "bilabial"
     ]),
