@@ -1,8 +1,9 @@
 syllable_structure:
   # V: vocal, C: consonant, L: liquid (n, r, l, m)
-  # and possibly with properties: C[plosive] etc.
-  # in braces () optional, without braces mandatory
-  general:
+  # and possibly with properties: C[plosive] etc.;
+  # in braces () optional, without braces mandatory;
+  # also brackets with specific options, e.g. CV([f,g,h]) - only fgh in the end of syllable (but optional)
+  general: (C)V(V)(["bilabial_nasal_voiced", "alveolar_nasal_voiced", "velar_nasal_voiced", "alveolar_lateral_approximant_unvoiced", "velar_fricative_voiced"])
 
   # verbs, nouns, adjectives, particles
   verbs:

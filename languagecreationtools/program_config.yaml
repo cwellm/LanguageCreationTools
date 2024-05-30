@@ -6,3 +6,6 @@ parameters:
   # discard a word immediately if there is a rule which it cannot obey (e.g. due to conflicting rules), if yes;
   # if no, try to replace letters (x amount of times) until something suitable is found
   discard: no
+
+  words:
+    no_words: 100
